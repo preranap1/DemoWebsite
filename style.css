@@ -1,0 +1,52 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  /*background-color: #3a3a3a;*/
+}
+
+#main-holder {
+  width: 30%;
+  height: 50%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #f5f5dc;
+  /*border-radius: 7px;
+  border-color: black;
+  border-width: thin;
+  box-shadow: 0px 0px 2px 2px black;*/
+}
+
+
+#ad-platform-table {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.ad-platform-table-tr {
+  border: 1px solid grey;
+  padding-left: : 50px;
+  padding-bottom: 50px
+}
+
+.form-submit {
+  font: 500 1rem 'Quicksand', sans-serif;
+  width: 50%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: grey;
+  cursor: pointer;
+  outline: none;
+}
