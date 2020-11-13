@@ -1,13 +1,13 @@
-const loginButton = document.getElementById("login-form-submit");
-const createAccount = document.getElementById("createAccount");
+const signupEmail = document.getElementById("signupEmail");
+const createAccountButton = document.getElementById("createAccount");
 
 
-    loginButton.addEventListener("click", (e) => {
+    createAccountButton.addEventListener("click", (e) => {
         e.preventDefault();
 
-        const Emailadd = createAccount.Email.value;
+        const Emailadd = signupEmail.value;
 
         alert('Successful Signup');
-        location.reload();
-
+        window.location.href = window.location.href + "?Email=" +Emailadd
+        location.reload()
     });
