@@ -9,5 +9,5 @@ const createAccountButton = document.getElementById("createAccount");
 
         alert('Successful Signup');
         window.location.href = window.location.href + "?Email=" +Emailadd
-        location.reload()
+        
     });
