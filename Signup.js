@@ -8,6 +8,6 @@ const createAccountButton = document.getElementById("createAccount");
         const Emailadd = signupEmail.value;
 
         alert('Successful Signup');
-        window.location.href = window.location.href + "?Email=" +Emailadd
+        window.location.href = window.location.href + "Email=" +Emailadd
         
     });
