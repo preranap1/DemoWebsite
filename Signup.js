@@ -8,6 +8,4 @@ const createAccountButton = document.getElementById("createAccount");
         const Emailadd = signupEmail.value;
 
         alert('Successful Signup');
-        location.reload();
-        
     });
