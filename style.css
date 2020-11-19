@@ -23,7 +23,7 @@ body {
   top: 45%;
   transform: translate(-50%, -55%);
   text-align: center;
-  background-color: #f5f5dc;
+  background-color: #e6f2ff;
 }
 
 .ad-platform-panel2 {
@@ -37,7 +37,7 @@ body {
   top: 45%;
   transform: translate(-50%, -55%);
   text-align: center;
-  background-color: #f5f5dc;
+  background-color: #e6f2ff;
 }
 
 .ad-platform-buttons {
@@ -48,7 +48,7 @@ body {
   border-radius: 5px;
   color: white;
   font-weight: bold;
-  background-color: grey;
+  background-color: #4d4d4d;
   cursor: pointer;
   outline: none;
 }
