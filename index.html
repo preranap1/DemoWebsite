@@ -30,7 +30,14 @@
     }
     function getCookie()
     {
-        alert(document.cookie);
+       if(document.cookie.length!=0)
+          {
+              alert(document.cookie);
+          }
+       else
+          {
+              alert("Cookie not avaliable");
+          }
     }
 </script>
 <nav class="navbar navbar-expand-md">
