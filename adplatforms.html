@@ -13,14 +13,34 @@
 </head>
 
 <body>
+  <script>
+function setCookie()
+{
+    document.cookie="name=Martin Roy; expires=Sun, 20 Aug 2000 12:00:00 UTC";
+
+}
+function getCookie()
+{
+    if(document.cookie.length!=0)
+    {
+    alert(document.cookie);
+    }
+    else
+    {
+        alert("Cookie not avaliable");
+    }
+}
+</script>
   <div class = 'ad-platform-panel'>
 
     <h1 id="ad-header">Test Panel</h1>
     <h5> This is a mock panel to access Ad Platforms for this test.</h5>
-    <a href="https://facebook-analytics-nfadev.netlify.app/" class="ad-platform-buttons">Facebook</a>
-    <a href="https://twitter-analytics-nfadev.netlify.app/" class="ad-platform-buttons"> Twitter</a>
-    <a href="https://search-analytics-nfadev.netlify.app/" class="ad-platform-buttons"> Search</a>
-    <a href="https://instagram-analytics-nfadev.netlify.app/" class="ad-platform-buttons"> Instagram</a>
+    <input type="button" value="Set Cookie" onclick="setCookie()">
+<input type="button" value="Get Cookie" onclick="getCookie()">
+    <a href="https://facebook-analytics-nfadev.netlify.app/" class="ad-platform-buttons">Facebook Test Platform </a>
+    <a href="https://twitter-analytics-nfadev.netlify.app/" class="ad-platform-buttons"> Twitter Test Platform </a>
+    <a href="https://search-analytics-nfadev.netlify.app/" class="ad-platform-buttons"> Search Test Platform </a>
+    <a href="https://instagram-analytics-nfadev.netlify.app/" class="ad-platform-buttons"> Instagram Test Platform </a>
   </br>
 </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
