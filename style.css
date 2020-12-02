@@ -12,10 +12,24 @@ body {
 }
 
 /*Ad Platform Pages */
-.ad-platform-panel {
+.ad-platform-panel1 {
   width: 30%;
   height: 50%;
-  left: 50%;
+  left: 20%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+  background-color: #e6e6ff;
+}
+
+.ad-platform-panel2 {
+  width: 30%;
+  height: 50%;
+  left: 70%;
   display: grid;
   justify-items: center;
   align-items: center;
