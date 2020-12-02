@@ -22,7 +22,19 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WL8DQTL"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+  <script>
 
+function getCookie()
+{
+    if (localStorage.getItem('nfaid') == null) {
+    alert("Not Avaliable");
+    }
+    else
+    {
+        alert(localStorage.getItem('nfaid'));
+    }
+}
+</script>
 <nav class="navbar navbar-expand-md">
   <a class="navbar-brand" href="#">Logo</a>
   <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
@@ -58,7 +70,7 @@
 
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12">
-
+<input type="button" value="Check for local storage" onclick="getCookie()">
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12">
 
